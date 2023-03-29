@@ -10,10 +10,6 @@
     margin: 0 auto;
 }
 
-header a {
-    margin-left: -5 px;
-}
-
 header img,
 header h1 {
     height: 75px;
