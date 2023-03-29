@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
-
 .container {
     max-width: 1050px;
     width: 100%;
     margin: 0 auto;
+}
+
+header a {
+    margin-left: -5 px;
 }
 
 header img,
@@ -44,7 +47,6 @@ img
 
 header li a {
     text-decoration: none;
-    margin-left: -9 px;
 }
 
 header nav li {
@@ -174,6 +176,18 @@ header li a,
 section input,
 section textarea,
 section button,
-section a {
+section a,
+footer {
     font-family: 'Luckiest Guy', cursive;
+}
+
+section button {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(112, 3, 3);
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px;
 }
